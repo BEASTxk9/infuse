@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 100%;
+    background-color: transparent;
+}
+
+header{
+    background-color: white;
+    border-bottom: 5px solid orange;
+}
+
+main{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: url('https://i.postimg.cc/FRmR6Vc3/Untitled-1.jpg') no-repeat center center/cover;
+}
+
+footer{
+    color: white;
+    background-color: rgba(26, 26, 26, 0.864);
+
+    justify-content: center;
+    text-align: center;
+}
+
+#logo{
+    width: 9vw;
+    height: 9vh;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#img-1{
+    width: 40%;
+    height: 29.6vh;
+
+}
+
+form{
+    padding-top: 0.4rem;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.864);
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 7px;
+    color: grey;
+}
+
+select{
+    width: 100%;
+    padding: 6.2px;
+    margin-bottom: 14px;
+    color: grey;
+}
+
+.container{
+    justify-content: center;
+}
+
+h1{
+    font-size: 2rem;
+    padding-bottom: 0.7rem;
+}
+
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p, ul{
+    font-size: 1rem;
+}
+
+button{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
